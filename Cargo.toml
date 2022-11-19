@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tch = {  version = "0.7.2", default-features = false }
+tch = { git = "https://github.com/LaurentMazare/tch-rs", default-features = false }

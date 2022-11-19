@@ -1,0 +1,9 @@
+name: tch-rs-demo
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
