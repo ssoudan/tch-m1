@@ -7,7 +7,7 @@ This repo demonstrate how to use [LaurentMazare/tch-rs](https://github.com/Laure
 - install miniforge with homebrew -- See https://naolin.medium.com/conda-on-m1-mac-with-miniforge-bbc4e3924f2b
 - create a new conda environment: `conda env create -f environment.yml`
 - activate the new environment: `conda activate tch-rs-demo`
-- create a symlink in this repo: `ln -sf /opt/homebrew/Caskroom/miniforge/base/envs/tch-rs-demo/lib/python3.8/site-packages/torch/ torch`
+- create a symlink in this repo: `ln -sf /opt/homebrew/Caskroom/miniforge/base/envs/tch-rs-demo/lib/python3.10/site-packages/torch/ torch`
 - run: `cargo run`
 
 ## More
