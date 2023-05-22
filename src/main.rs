@@ -15,12 +15,12 @@ fn grad_example() {
 }
 
 fn main() {
-    let t = Tensor::of_slice(&[3, 1, 4, 1, 5]);
+    let t = Tensor::from_slice(&[3, 1, 4, 1, 5]);
     t.print(); // works on CPU tensors
 
     println!("t(cpu) {:?}", &t);
     println!("t device: {:?}", &t.device());
-    let t = Tensor::randn(&[5, 4], kind::FLOAT_CPU).to_device(tch::Device::Mps);
+    let t = Tensor::randn([5, 4], kind::FLOAT_CPU).to_device(tch::Device::Mps);
     t.print();
     println!("t(mps) {:?}", &t);
     println!("t device: {:?}", &t.device());
